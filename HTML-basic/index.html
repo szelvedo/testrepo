@@ -67,13 +67,13 @@
           padding: 15px;
         }
         
-        /* For mobile phones: */
+          /* Mobil megjelenés: */
         [class*="col-"] {
           width: 100%;
         }
         
         @media only screen and (min-width: 600px) {
-          /* For tablets: */
+          /* Tablet kijelző */
           .col-s-1 {width: 8.33%;}
           .col-s-2 {width: 16.66%;}
           .col-s-3 {width: 25%;}
@@ -88,7 +88,7 @@
           .col-s-12 {width: 100%;}
         }
         @media only screen and (min-width: 768px) {
-          /* For desktop: */
+          /* Asztali gép */
           .col-1 {width: 8.33%;}
           .col-2 {width: 16.66%;}
           .col-3 {width: 25%;}
@@ -105,16 +105,38 @@
         </style>
 </head>
 <body>
-    <div class="header">Burger gyorsétterem - Budapest</h1></div>
+    <div class="header">BIG BURGER gyorsétterem - Budapest</h1></div>
 
     <div class="row">
         <div class="col-3 col-s-3 menu">
           <ul>
             <li>Bemutatkozás</li>
             <li>Áraink</li>
-            <li>Étlap</li>
+            <li a href="google.hu"><a>Étlap</a></li>
             <li>Akciók</li>
           </ul>
         </div>
+        <div class="col-6 col-s-9">
+            <h1>BIG Burger</h1>
+            <p>Megéheztél és egy óriás hamburgerre vágysz?</p>
+            <p>Térj be hozzánk és próbáld ki akciós hamburgereinket, vagy válassz menüiink közül!</p>
+          </div>
+        
+          <div class="col-3 col-s-12">
+            <div class="aside">
+              <h2>Hamburger</h2>
+              <p>Chania is a city on the island of Crete.</p>
+              <h2>Üditő</h2>
+              <p>Crete is a Greek island in the Mediterranean Sea.</p>
+              <h2>Menü</h2>
+              <p>You can reach Chania airport from all over Europe.</p>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="footer">
+            <p>Resize the browser window to see how the content respond to the resizing.</p>
+          </div>
 </body>
 </html>
